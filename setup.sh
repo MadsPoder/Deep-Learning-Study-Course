@@ -1,0 +1,1 @@
+type virtualenv >/dev/null 2>&1 || { echo >&2 pip install virtualenv; exit 1; }
