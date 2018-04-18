@@ -106,3 +106,5 @@ FullIJCNN2013_converted/
 keras_retinanet/*
 
 snapshots/
+
+.vscode/
