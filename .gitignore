@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+FullIJCNN2013/
+FullIJCNN2013_converted/
+
+keras_retinanet/*
+
+snapshots/

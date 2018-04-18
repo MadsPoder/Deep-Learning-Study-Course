@@ -5,11 +5,12 @@ Mandatory miniproject for the study course in deep learning at Aarhus University
 The ultimate goal of the project is to identify road signs in Denmark.
 
 ## Prerequisites
-1. Clone the repository
-2. Download the GTSDB dataset from [here](http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset)
-3. Convert the dataset using *prepare_data.py*
-4. Install [Keras RetinaNet](https://github.com/fizyr/keras-retinanet)
-
+1. Install Python 3.6.x
+2. Install virtualenv
+3. Clone the repository
+4. Download the GTSDB dataset from [here](http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset)
+5. Convert the dataset using *prepare_data.py*
+6. Install [Keras RetinaNet](https://github.com/fizyr/keras-retinanet)
 
 ### Setup Windows GPU
 (As of 15/04-18 pip version of tensorflow only supports **CUDA 9.0**)
