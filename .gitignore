@@ -103,6 +103,8 @@ ENV/
 FullIJCNN2013/
 FullIJCNN2013_converted/
 
+GTSRB/*
+
 keras_retinanet/*
 
 snapshots/
