@@ -108,3 +108,5 @@ GTSRB/*
 keras_retinanet/*
 
 snapshots/
+
+.vscode/
