@@ -103,6 +103,10 @@ ENV/
 FullIJCNN2013/
 FullIJCNN2013_converted/
 
+datasets/
+
+logs/
+
 GTSRB/*
 
 keras_retinanet/*

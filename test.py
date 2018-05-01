@@ -31,16 +31,16 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 keras.backend.tensorflow_backend.set_session(get_session())
 
 # adjust this to point to your downloaded/trained model
-model_path = os.path.join('snapshots', 'model_ny.h5')
+#model_path = os.path.join('snapshots', 'model_ny.h5')
+model_path = os.path.join('snapshots', 'new_epoch_16.h5')
 
 # load retinanet model
 model = keras.models.load_model(model_path, custom_objects=custom_objects)
 
 
-for imagename in [f for f in os.listdir("c:\\Users\\Mads\\Desktop\\dl\\FullIJCNN2013_converted\\") if os.path.splitext(f)[1] == ".jpg"]:
+for imagename in [f for f in os.listdir("C:\\Users\\Mads\\Documents\\GitHub\\Deep-Learning-Study-Course\\datasets\\GTSDB\\FullIJCNN2013") if os.path.splitext(f)[1] == ".ppm"]:
     # load image
-    #image = read_image_bgr(os.path.join("c:\\Users\\Mads\\Desktop\\dl\\FullIJCNN2013_converted","00037".jpg"))
-    image = read_image_bgr(os.path.join("c:\\Users\\Mads\\Desktop\\dl\\FullIJCNN2013_converted\\",imagename))
+    image = read_image_bgr(os.path.join("C:\\Users\\Mads\\Documents\\GitHub\\Deep-Learning-Study-Course\\datasets\\GTSDB\\FullIJCNN2013", imagename))
     # copy to draw on
     draw = image.copy()
     draw = cv2.cvtColor(draw, cv2.COLOR_BGR2RGB)
@@ -60,8 +60,8 @@ for imagename in [f for f in os.listdir("c:\\Users\\Mads\\Desktop\\dl\\FullIJCNN
     # visualize detections
     for box, score, label in zip(boxes[0], scores[0], labels[0]):
         # scores are sorted so we can break
-        print("Score for image {}.jpg : {}".format(imagename, score))
-        if score < 0.4:
+        print("Score for image {} : {}".format(imagename, score))
+        if score < 0.60:
             break
         
             
