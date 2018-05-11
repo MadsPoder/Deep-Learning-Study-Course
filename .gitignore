@@ -114,3 +114,5 @@ keras_retinanet/*
 snapshots/
 
 .vscode/
+
+*.sh
