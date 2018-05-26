@@ -1,14 +1,22 @@
 ## Structure
 ### Notebooks
 **annotate_video.ipynb** Prediction and annotation of video sequence.
+
 **graphs.ipynb** Creation of Training/Validation accuracy graphs.
+
 **predict_test_set.ipynb** Calculation of average scores per class.
+
 **predict.ipynb** Annotation and prediction of single image.
+
 **training.ipynb** Training script.
+
 **visualisation.ipynb** Playground script for various visualisation techniques tried.
+
 ### Other files
 **callbacks.py** Saving of weights, generation of mAP_train/mAP_Test.
+
 **paths.py** Paths to files, DRY.
+
 **shared.py** TF session and enums used.
 
 ## Prerequisites
