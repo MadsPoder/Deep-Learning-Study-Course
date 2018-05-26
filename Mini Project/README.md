@@ -4,7 +4,7 @@
 
 **graphs.ipynb** Creation of Training/Validation accuracy graphs.
 
-**predict_test_set.ipynb** Calculation of average scores per class.
+**[predict_test_set.ipynb](Deep-Learning-Study-Course/Mini Project/predict_test_set.ipynb)** Calculation of average scores per class.
 
 **predict.ipynb** Annotation and prediction of single image.
 
