@@ -1,23 +1,23 @@
 ## Structure
 ### Notebooks
-**annotate_video.ipynb** Prediction and annotation of video sequence.
+**[annotate_video.ipynb](./annotate_video.ipynb)** Prediction and annotation of video sequence.
 
-**graphs.ipynb** Creation of Training/Validation accuracy graphs.
+**[graphs.ipynb](./graphs.ipynb)** Creation of Training/Validation accuracy graphs.
 
 **[predict_test_set.ipynb](./predict_test_set.ipynb)** Calculation of average scores per class.
 
-**predict.ipynb** Annotation and prediction of single image.
+**[predict.ipynb](./predict.ipynb)** Annotation and prediction of single image.
 
-**training.ipynb** Training script.
+**[training.ipynb](./training.ipynb)** Training script.
 
-**visualisation.ipynb** Playground script for various visualisation techniques tried.
+**[visualisation.ipynb](./visualisation.ipynb)** Playground script for various visualisation techniques tried.
 
 ### Other files
-**callbacks.py** Saving of weights, generation of mAP_train/mAP_Test.
+**[callbacks.py](./callbacks.py)** Saving of weights, generation of mAP_train/mAP_Test.
 
-**paths.py** Paths to files, DRY.
+**[paths.py](./paths.py)** Paths to files, DRY.
 
-**shared.py** TF session and enums used.
+**[shared.py](./shared.py)** TF session and enums used.
 
 ## Prerequisites
 1. Install Python 3.6.x
