@@ -1,5 +1,7 @@
 ## Structure
 ### Notebooks
+**[setup.ipynb](./setup.ipynb)** Download of dataset, split into test/train etc.
+
 **[annotate_video.ipynb](./annotate_video.ipynb)** Prediction and annotation of video sequence.
 
 **[graphs.ipynb](./graphs.ipynb)** Creation of Training/Validation accuracy graphs.
