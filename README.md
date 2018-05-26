@@ -9,4 +9,4 @@ A video illustrating the final model can be seen [**here**](https://www.youtube.
 ## Structure
 **[Exercises](./Exercises)** contains code for the 2 exercises 
 
-**[Mini Project](./Mini\ Project)** contains the code for the mandatory mini project.
+**[Mini Project](./Mini%20Project)** contains the code for the mandatory mini project.
